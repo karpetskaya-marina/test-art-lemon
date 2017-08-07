@@ -31,7 +31,7 @@ ul {
 .wrapper {
 	width: 1140px;
 	margin: 0 auto;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 .burger {
 	position: absolute;
@@ -327,6 +327,7 @@ ul {
 		&_input {
 			font-size: 13px;
 			color: $menu_font_color;
+			height: 50px;
 			line-height: 50px;
 			border-radius: 10px;
 			border: 1px solid #c7e6e9;
@@ -402,6 +403,7 @@ margin: 0 auto 32px;
 					height: 100%;
 					opacity: 0;
 					transition: opacity .3s;
+					border-radius: 50%;
 				}
 				&.slick-active::before {
 					opacity: 1;
