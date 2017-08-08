@@ -599,15 +599,16 @@ margin: 0 auto 32px;
 
 		}
 	}
+	.content_button {
+		display: block;
+		margin: 0 auto;
+	}
 	.merchandises {
 		margin-bottom: 90px;
 		.wrapper {
 			overflow: hidden;
 		}
-		.content_button {
-			display: block;
-			margin: 0 auto;
-		}
+
 		h3 {
 			text-align: center;
 			text-transform: uppercase;
